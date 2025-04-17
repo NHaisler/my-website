@@ -26,3 +26,27 @@ body {
     text-decoration: underline;
   }
   
+  /* Profile section: photo on left, text on right */
+.about-me {
+    display: flex;
+    align-items: flex-start;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+  }
+  
+  .about-me img {
+    width: 180px;            /* adjust as needed */
+    height: auto;
+    border-radius: 50%;      /* makes it circular */
+    margin-right: 1.5rem;
+    object-fit: cover;
+  }
+  
+  .about-me .bio {
+    flex: 1;
+  }
+  
+  .about-me .bio h2 {
+    margin-top: 0;
+  }
